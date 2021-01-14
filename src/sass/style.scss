@@ -1,0 +1,29 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+
+* {
+    font-family: 'MuseoModerno', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 20px 0 20px;
+    }
+}
