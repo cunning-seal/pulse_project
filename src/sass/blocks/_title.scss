@@ -1,0 +1,25 @@
+.title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    &_left {
+        font-size: 36px;
+        color: #ffffff;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .title {
+        font-size: 20px;
+    }
+}

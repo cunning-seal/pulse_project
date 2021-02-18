@@ -1,6 +1,7 @@
 .button {
     width: 150px;
     height: 30px;
+    border: none;
     border-radius: 5px;
     background-color: $main-color;
     color: #ffffff;
@@ -14,6 +15,16 @@
         height: 50px;
         font-size: 16px;
     }
+    &_submit {
+        width: 100%;
+        height: 58px;
+        font-size: 16px;
+    }
+    &_mini {
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
+    }
 }
 
 
@@ -24,6 +35,9 @@
         &_main {
             width: 300px;
             font-size: 14px;
+        }
+        &_submit {
+            
         }
     }
 }
